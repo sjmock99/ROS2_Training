@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**",
+                "~/ros2_ws/install/my_robot_interfaces/include/**"
+                // "/opt/ros/humble/include/example_interfaces",
+                // "/opt/ros/humble/include/rclcpp",
+                // "/opt/ros/humble/include/rosidl_runtime_cpp",
+                // "/opt/ros/humble/include/rcl"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
