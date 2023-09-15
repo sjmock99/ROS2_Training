@@ -15,7 +15,7 @@ def generate_launch_description():
             remap_number_topic
         ],
         parameters=[
-            {"number_to_publish": 4},
+            {"number_to_publish": 3},
             {"publish_frequency": 5.0}
         ]
    
