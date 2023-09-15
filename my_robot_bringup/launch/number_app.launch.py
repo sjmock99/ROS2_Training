@@ -32,10 +32,8 @@ def generate_launch_description():
         ]
     )
 
-
-
-
     ld.add_action(number_publisher_node)
     ld.add_action(number_counter_node)
     return ld
+
 
