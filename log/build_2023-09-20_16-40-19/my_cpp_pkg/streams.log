@@ -1,0 +1,119 @@
+[0.011s] Invoking command in '/home/sjmock/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg_msgs:/home/sjmock/ros2_ws/install/my_robot_bringup:/home/sjmock/ros2_ws/install/my_cpp_pkg:/home/sjmock/ros2_ws/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg:/home/sjmock/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sjmock/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sjmock/ros2_ws/src/install/my_cpp_pkg
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.223s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.435s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.487s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.490s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.497s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.586s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.588s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.661s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.682s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.727s] -- Looking for pthread.h
+[0.782s] -- Looking for pthread.h - found
+[0.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.838s] -- Found Threads: TRUE  
+[0.968s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.084s] -- Found my_robot_interfaces: 0.0.0 (/home/sjmock/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.165s] -- Configuring done
+[1.196s] -- Generating done
+[1.198s] -- Build files have been written to: /home/sjmock/ros2_ws/src/build/my_cpp_pkg
+[1.209s] Invoked command in '/home/sjmock/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg_msgs:/home/sjmock/ros2_ws/install/my_robot_bringup:/home/sjmock/ros2_ws/install/my_cpp_pkg:/home/sjmock/ros2_ws/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg:/home/sjmock/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sjmock/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sjmock/ros2_ws/src/install/my_cpp_pkg
+[1.210s] Invoking command in '/home/sjmock/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg_msgs:/home/sjmock/ros2_ws/install/my_robot_bringup:/home/sjmock/ros2_ws/install/my_cpp_pkg:/home/sjmock/ros2_ws/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg:/home/sjmock/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sjmock/ros2_ws/src/build/my_cpp_pkg -- -j16 -l16
+[1.261s] [ 37%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.261s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/number_reset.dir/src/number_reset.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.262s] [ 37%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[1.264s] [ 41%] [32mBuilding CXX object CMakeFiles/led_panel_node.dir/src/led_panel_node.cpp.o[0m
+[1.264s] [ 45%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery_node.cpp.o[0m
+[1.265s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[5.250s] [ 54%] [32m[1mLinking CXX executable cpp_node[0m
+[5.382s] [ 54%] Built target cpp_node
+[6.417s] [ 58%] [32m[1mLinking CXX executable number_reset[0m
+[6.664s] [ 58%] Built target number_reset
+[6.701s] [ 62%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[6.790s] [ 66%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[6.798s] [ 70%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[6.923s] [ 70%] Built target add_two_ints_server
+[6.927s] [ 75%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[7.005s] [ 75%] Built target add_two_ints_client
+[7.035s] [ 79%] [32m[1mLinking CXX executable battery_node[0m
+[7.103s] [ 79%] Built target add_two_ints_client_no_oop
+[7.145s] [ 79%] Built target hw_status_publisher
+[7.220s] [ 83%] [32m[1mLinking CXX executable robot_news_station[0m
+[7.220s] [ 83%] Built target battery_node
+[7.406s] [ 83%] Built target robot_news_station
+[7.572s] [ 87%] [32m[1mLinking CXX executable number_publisher[0m
+[7.773s] [ 87%] Built target number_publisher
+[8.007s] [ 91%] [32m[1mLinking CXX executable led_panel_node[0m
+[8.169s] [ 91%] Built target led_panel_node
+[10.178s] [ 95%] [32m[1mLinking CXX executable smartphone[0m
+[10.451s] [ 95%] Built target smartphone
+[11.053s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[11.313s] [100%] Built target number_counter
+[11.324s] Invoked command in '/home/sjmock/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg_msgs:/home/sjmock/ros2_ws/install/my_robot_bringup:/home/sjmock/ros2_ws/install/my_cpp_pkg:/home/sjmock/ros2_ws/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg:/home/sjmock/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sjmock/ros2_ws/src/build/my_cpp_pkg -- -j16 -l16
+[11.359s] Invoking command in '/home/sjmock/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg_msgs:/home/sjmock/ros2_ws/install/my_robot_bringup:/home/sjmock/ros2_ws/install/my_cpp_pkg:/home/sjmock/ros2_ws/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg:/home/sjmock/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sjmock/ros2_ws/src/build/my_cpp_pkg
+[11.364s] -- Install configuration: ""
+[11.364s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[11.364s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[11.364s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[11.365s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[11.365s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[11.367s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[11.367s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[11.368s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[11.368s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[11.371s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[11.371s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[11.371s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[11.371s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[11.372s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[11.372s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[11.372s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[11.372s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_reset
+[11.373s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_reset" to ""
+[11.373s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[11.374s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+[11.374s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node
+[11.374s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node" to ""
+[11.374s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_node
+[11.375s] -- Set runtime path of "/home/sjmock/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_node" to ""
+[11.375s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/launch
+[11.375s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/launch/testCPP.launch.py
+[11.375s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[11.375s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[11.375s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[11.375s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[11.376s] -- Installing: /home/sjmock/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[11.379s] Invoked command in '/home/sjmock/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg_msgs:/home/sjmock/ros2_ws/install/my_robot_bringup:/home/sjmock/ros2_ws/install/my_cpp_pkg:/home/sjmock/ros2_ws/install/my_robot_interfaces:/home/sjmock/ros2_ws/install/turtlesim_pkg:/home/sjmock/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sjmock/ros2_ws/src/build/my_cpp_pkg

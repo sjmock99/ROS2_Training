@@ -1,0 +1,8 @@
+{
+  "package_name": "turtlesim_pkg_msgs",
+  "non_idl_tuples": [
+    "/home/sjmock/ros2_ws/src/turtlesim_pkg_msgs:msg/Turtle.msg",
+    "/home/sjmock/ros2_ws/src/turtlesim_pkg_msgs:msg/TurtleArray.msg",
+    "/home/sjmock/ros2_ws/src/turtlesim_pkg_msgs:srv/CatchTurtle.srv"
+  ]
+}

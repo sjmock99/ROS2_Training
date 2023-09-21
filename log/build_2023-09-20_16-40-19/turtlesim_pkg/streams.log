@@ -1,0 +1,41 @@
+[0.515s] Invoking command in '/home/sjmock/ros2_ws/src/turtlesim_pkg': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/build/turtlesim_pkg/prefix_override:/home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages:/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlesim_pkg build --build-base /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build install --record /home/sjmock/ros2_ws/src/build/turtlesim_pkg/install.log --single-version-externally-managed
+[0.747s] running egg_info
+[0.749s] creating ../build/turtlesim_pkg/turtlesim_pkg.egg-info
+[0.750s] writing ../build/turtlesim_pkg/turtlesim_pkg.egg-info/PKG-INFO
+[0.754s] writing dependency_links to ../build/turtlesim_pkg/turtlesim_pkg.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../build/turtlesim_pkg/turtlesim_pkg.egg-info/entry_points.txt
+[0.754s] writing requirements to ../build/turtlesim_pkg/turtlesim_pkg.egg-info/requires.txt
+[0.754s] writing top-level names to ../build/turtlesim_pkg/turtlesim_pkg.egg-info/top_level.txt
+[0.755s] writing manifest file '../build/turtlesim_pkg/turtlesim_pkg.egg-info/SOURCES.txt'
+[0.758s] reading manifest file '../build/turtlesim_pkg/turtlesim_pkg.egg-info/SOURCES.txt'
+[0.758s] writing manifest file '../build/turtlesim_pkg/turtlesim_pkg.egg-info/SOURCES.txt'
+[0.759s] running build
+[0.759s] running build_py
+[0.759s] creating /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build
+[0.759s] creating /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib
+[0.759s] creating /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[0.759s] copying turtlesim_pkg/turtle_controller.py -> /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[0.759s] copying turtlesim_pkg/__init__.py -> /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[0.759s] copying turtlesim_pkg/turtle_spawner.py -> /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[0.764s] running install
+[0.764s] running install_lib
+[0.764s] creating /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg
+[0.764s] copying /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg/turtle_controller.py -> /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg
+[0.764s] copying /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg/__init__.py -> /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg
+[0.764s] copying /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build/lib/turtlesim_pkg/turtle_spawner.py -> /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg
+[0.764s] byte-compiling /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.765s] byte-compiling /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg/__init__.py to __init__.cpython-310.pyc
+[0.765s] byte-compiling /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[0.765s] running install_data
+[0.765s] creating /home/sjmock/ros2_ws/src/install/turtlesim_pkg/share/ament_index
+[0.765s] creating /home/sjmock/ros2_ws/src/install/turtlesim_pkg/share/ament_index/resource_index
+[0.765s] creating /home/sjmock/ros2_ws/src/install/turtlesim_pkg/share/ament_index/resource_index/packages
+[0.766s] copying resource/turtlesim_pkg -> /home/sjmock/ros2_ws/src/install/turtlesim_pkg/share/ament_index/resource_index/packages
+[0.766s] copying package.xml -> /home/sjmock/ros2_ws/src/install/turtlesim_pkg/share/turtlesim_pkg
+[0.772s] running install_egg_info
+[0.772s] Copying ../build/turtlesim_pkg/turtlesim_pkg.egg-info to /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages/turtlesim_pkg-0.0.0-py3.10.egg-info
+[0.772s] running install_scripts
+[0.807s] Installing turtle_controller script to /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/turtlesim_pkg
+[0.807s] Installing turtle_spawner script to /home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/turtlesim_pkg
+[0.808s] writing list of installed files to '/home/sjmock/ros2_ws/src/build/turtlesim_pkg/install.log'
+[0.901s] Invoked command in '/home/sjmock/ros2_ws/src/turtlesim_pkg' returned '0': AMENT_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sjmock/ros2_ws/src/build/turtlesim_pkg/prefix_override:/home/sjmock/ros2_ws/src/install/turtlesim_pkg/lib/python3.10/site-packages:/home/sjmock/ros2_ws/src/install/turtlesim_pkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlesim_pkg build --build-base /home/sjmock/ros2_ws/src/build/turtlesim_pkg/build install --record /home/sjmock/ros2_ws/src/build/turtlesim_pkg/install.log --single-version-externally-managed
