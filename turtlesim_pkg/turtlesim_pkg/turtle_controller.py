@@ -7,7 +7,6 @@ from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
 from turtlesim_pkg_msgs.msg import Turtle
 from turtlesim_pkg_msgs.msg import TurtleArray
-from turtlesim_pkg_msgs.srv import CatchTurtle
 
 
 class TurtleController(Node):
@@ -18,8 +17,6 @@ class TurtleController(Node):
         self.publisher_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
         self.turtle_subscriber_ = self.create_subscription(
             TurtleArray, "/alive_turtles", self.callback_choose_turtle, 10)
-        self.server_ = self.create_service(
-            CatchTurtle, "/catch_turtle", self.callback_catch_turtle)
 
 
         self.get_logger().info("Turtle Controller has Started")
@@ -35,8 +32,6 @@ class TurtleController(Node):
 
         x_error = self.x_goal - curr_x
         y_error = self.y_goal - curr_y       
-
-
 
         # Determine a basic "P" Controller to move towards eventual goal
         pub_msg = Twist()
