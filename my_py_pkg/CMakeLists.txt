@@ -18,6 +18,7 @@ find_package(my_robot_interfaces REQUIRED)
 
 # Install Python modules
 ament_python_install_package(${PROJECT_NAME}) # NECESSARY FOR PYTHON!
+
 # Install Python executables
 install(PROGRAMS
   my_py_pkg/add_two_ints_client_no_oop.py
@@ -37,5 +38,4 @@ install(PROGRAMS
   my_py_pkg/launch_yaml_example.py
   DESTINATION lib/${PROJECT_NAME}
 )
-
 ament_package()
