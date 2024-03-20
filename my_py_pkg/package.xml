@@ -7,7 +7,12 @@
   <maintainer email="ed@todo.todo">ed</maintainer>
   <license>TODO: License declaration</license>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
   <depend>rclpy</depend>
+  <depend>rclcpp</depend>
+  
   <depend>example_interfaces</depend>
   <depend>my_robot_interfaces</depend>
 
@@ -18,8 +23,7 @@
 
   <exec_depend>ros2launch</exec_depend>
 
-
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

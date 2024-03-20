@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-
+import time
 from example_interfaces.srv import AddTwoInts
 
 
@@ -14,6 +14,8 @@ class AddTwoIntsServerNode(Node):
 
     def callback_add_two_ints(self, request, response):
         response.sum = request.a + request.b
+        print("delay for 5 second?")
+        time.sleep(5)
         self.get_logger().info(str(request.a) + " + " +
                                str(request.b) + " = " + str(response.sum))
         return response
