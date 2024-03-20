@@ -7,7 +7,7 @@ def generate_launch_description():
 
     robot_news_node1 = Node(
         package="my_py_pkg",
-        executable="robot_news_station",
+        executable="robot_news_station.py",
         # name="robot_news_node1",
         parameters=[
             {"name": "Beeboo"},
@@ -15,7 +15,6 @@ def generate_launch_description():
         ]
    
     )
-
 
     ld.add_action(robot_news_node1)
     return ld

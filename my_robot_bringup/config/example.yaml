@@ -1,0 +1,3 @@
+node_parameters:
+  number_to_publish: 5
+  publish_frequency: 2.0

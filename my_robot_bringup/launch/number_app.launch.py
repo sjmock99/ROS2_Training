@@ -9,7 +9,7 @@ def generate_launch_description():
 
     number_publisher_node = Node(
         package="my_py_pkg",
-        executable="number_publisher",
+        executable="number_publisher.py",
         name="my_number_publisher",
         remappings=[
             remap_number_topic
