@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LedPanelState.msg"
   "srv/ComputeRectangleArea.srv"
   "srv/SetLed.srv"
+  "srv/AddTwoIntsServerCall.srv"
 )
 ament_export_dependencies(rosidl_default_runtime)
 
